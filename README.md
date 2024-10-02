@@ -3,6 +3,8 @@ This application uses Generative ai to generate emails for a specific job applic
 for running this application all we need is Job application url and name of the person, Portfolio of individuals.
 
 Techstack used:
-Generative ai,
-Retrieval augumentation Generation --> this will fetch relevant portfolio links for a specific job role. 
-those retrieved portfolio links are used at the time of email generation.
+langchain: 
+
+Retrieval augumentation Generation(RAG):
+
+RAG will fetch relevant portfolio links for a specific job role. Those retrieved portfolio links are used at the time of email generation.
